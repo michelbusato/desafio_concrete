@@ -2,6 +2,8 @@ Desafio de Rest
 
 Esse desafio tem como objetivo CADASTRO/LOGIN/LISTAGEM de USUARIOS
 
+https://desafiomichel.herokuapp.com/
+
 =====================================================================================================
 
 Criando um usuario
@@ -21,7 +23,7 @@ Enviando os dados via POST
 =======================================================
 Login
 
-AtravÈs do metodo POST
+Atrav√©s do metodo POST
 http://{server}//login
 Exemplo: http://localhost:8080/login/
 
@@ -35,7 +37,7 @@ Enviando os dados via POST
 }
 
 =======================================================
-Listar dados dos usu·rios
+Listar dados dos usu√°rios
 
 http://{server}/usuarios/{id}
 
@@ -43,9 +45,9 @@ http://{server}/usuarios/{id}
 Enviando os dados via GET
 
 ID - Identificador de usuario recebido no momento de cadastro do usuario
-Para Acesso È necessario Token
+Para Acesso √© necessario Token
 
-basta fazer a requisiÁ„o enviando os parametros pelo Header
+basta fazer a requisi√ß√£o enviando os parametros pelo Header
 
 x-auth-token: {Token de acesso recebido no momento do cadastro de usuario}
 
