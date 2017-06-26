@@ -4,6 +4,16 @@ Esse desafio tem como objetivo CADASTRO/LOGIN/LISTAGEM de USUARIOS
 
 https://desafiomichel.herokuapp.com/
 
+
+====================================================================================================
+Enviando via GET
+
+Listar todos os usuarios
+
+http://{server}/usuarios/
+Exemplo: http://localhost:8080/usuarios/
+
+
 =====================================================================================================
 
 Criando um usuario
@@ -24,7 +34,7 @@ Enviando os dados via POST
 Login
 
 Através do metodo POST
-http://{server}//login
+http://{server}/login
 Exemplo: http://localhost:8080/login/
 
 
@@ -39,7 +49,7 @@ Enviando os dados via POST
 =======================================================
 Listar dados dos usuários
 
-http://{server}/usuarios/{id}
+http://{server}/usuario/{id}
 
 
 Enviando os dados via GET
