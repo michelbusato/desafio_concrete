@@ -31,8 +31,8 @@ Exemplo: http://localhost:8080/login/
 Enviando os dados via POST
 
 {
-        "email": "cgs@globo.com",
-        "password": "24132"
+        "email": "michel@michel.com",
+        "password": "abc123"
         
 }
 
